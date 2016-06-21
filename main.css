@@ -1,0 +1,248 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: courier, serif;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/* 
+*******************************************************************
+Pills
+*******************************************************************
+Used in ..\Index.html
+Used in ..\pages\Aboutme.html 
+Used in ..\pages\Work.html 
+*/
+
+.nav-pills li a {
+  color: #808080;
+  padding-top: 30px;
+}
+
+.nav-pills li.active a,
+.nav-pills li a:hover,
+.btn:hover {
+  background-color: #808080;
+  box-shadow:0 2px 4px rgba(0,0,0,.5); 
+  color: rgb(0,0,0);
+}
+
+/* 
+*******************************************************************
+Header
+*******************************************************************
+Used in ..\Index.html
+Used in ..\pages\Aboutme.html 
+Used in ..\pages\Work.html 
+*/
+
+.header 	{
+	background-color: #FFFFFF;
+	padding-bottom: 10px;
+  position:fixed;
+  width: 100%;
+}
+.header h1 	{
+	color: #808080;
+}
+
+/* 
+*******************************************************************
+Buttons
+*******************************************************************
+Used in ..\Index.html
+Used in ..\pages\Aboutme.html 
+Used in ..\pages\Work.html 
+*/
+
+.btn	{
+  padding-top: 10px;
+  background-color: #ffffff;
+  color: #404040;
+  border: 1px solid;
+}
+
+/* 
+*******************************************************************
+Jumbotrons
+*******************************************************************
+Used in ..\Index.html
+*/
+
+.jumbotronindex {
+  height: 800px;
+  padding-top: 100px;
+  margin-bottom: 0;
+  background: url("../img/boat.jpg") no-repeat center;
+  background-size: cover;
+}
+
+/* 
+Used in ..\pages\about.html 
+*/
+
+.jumbotronaboutme  {
+  height: 800px;
+  background: url("../img/aboutme.jpg") no-repeat center;
+  background-size: cover;
+  padding-top: 100px;
+  margin-bottom: 0;
+}
+
+/* 
+Used in ..\pages\work.html 
+*/
+
+.jumbotronwork  {
+  height: 800px;
+  background: url("../img/typewriter.jpg") no-repeat center;
+  background-size: cover;
+  padding-top: 100px;
+  margin-bottom: 0;
+}
+
+/* 
+Used in ..\pages\life.html 
+*/
+
+.jumbotronlife  {
+  height: 800px;
+  background: url("../img/life.jpg") no-repeat center;
+  background-size: cover;
+  padding-top: 100px;
+  margin-bottom: 0;
+
+}
+
+/* 
+Used in ..\pages\play.html 
+*/
+
+.jumbotronplay  {
+  height: 800px;
+  background: url("../img/play.jpg") no-repeat center;
+  background-size: cover;
+  padding-top: 100px;
+  margin-bottom: 0;
+
+}
+/* 
+*******************************************************************
+Banners
+*******************************************************************
+Used in ..\Index.html
+Used in ..\pages\Aboutme.html 
+*/
+
+.banner {
+	background-color: #ffffff;
+	height: 200px;
+	text-align: center;
+}
+
+.banner h1	{
+	font-size: 60px;
+	text-transform: uppercase;
+	padding-top: 20px;
+	color: #404040;
+}
+
+.banner h2  {
+  font-size: 20px;
+  padding-top: 27px;
+  color: #808080;
+}
+
+.banner p {
+	font-size: 15px;
+	color: #808080;
+}
+
+.banner a {
+	font-size: 15px;
+}
+
+/* 
+Used in ..\pages\Work.html 
+*/
+
+.banner1  {
+  background-color: #808080;
+  height: 180px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+}
+
+.banner2 {
+  background-color: #ffffff;
+  height: 400px;
+  text-align: center;
+}
+
+.banner2 h1  {
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  color: #000000;
+}
+
+.banner2 p {
+  font-size: 15px;
+  color: #808080;
+}
+
+.banner2 a {
+  font-size: 15px;
+}
+
+/* 
+*******************************************************************
+Footer
+*******************************************************************
+Used in ..\Index.html
+Used in ..\pages\Aboutme.html 
+Used in ..\pages\Work.html 
+*/
+
+.footer	{
+	background-color: #808080;
+	height: 75px;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 12px;
+}
+
+/* 
+*******************************************************************
+Media Queries 
+*******************************************************************
+Used in ..\Index.html
+Used in ..\pages\Aboutme.html 
+Used in ..\pages\Work.html 
+*/
+
+@media (max-width: 680px) {
+  .header h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .nav {
+    float: none;
+    margin: 0 auto;
+  }
+  .banner {
+    height: 220px;
+  }
+
+  .nav-pills li:first-child a  {
+    margin-left: 0;
+  }
+}
